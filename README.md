@@ -8,10 +8,11 @@ The purpose of this analysis was to use SQL to help answer questions that Pewlet
 ## Results
 The first goal of our analysis was to create a table that held the job titles of all employees born between January 1, 1952 and December 31, 1955 that are still currently employed at Pewlett Hackard.  We want the data from this table so that we can get a feel for how many people are soon to be retiring from Pewlett Hackard.  This goal was completed in three major steps:
 
-* First, as shown below, we created a table entitled “retirement_titles” that contained the employee identification numbers, first names, last names, job titles, hiring dates, and date of termination (the date that the employee ceased working for Pewlett Hackard). ![retirement_titles](https://user-images.githubusercontent.com/115128743/206359573-d8a84e99-9fc8-4dd0-9615-303f39615a64.png)
+* First, as shown below, we created a table entitled “retirement_titles” that contained the employee identification numbers, first names, last names, job titles, hiring dates, and date of termination (the date that the employee ceased working for Pewlett Hackard).    ![retirement_titles](https://user-images.githubusercontent.com/115128743/206359573-d8a84e99-9fc8-4dd0-9615-303f39615a64.png)
 
 
-* However, the retirement_titles table gives us duplicate entries since some employees shifted positions during their career at Pewlett Hackard.  Thus, we created a second table entitled “unique_titles” that displays the same information as the retirement_titles table, but excludes any redundant values ![unique_titles](https://user-images.githubusercontent.com/115128743/206359671-9c13880e-aca9-42d1-bcb2-2c35821caa01.png)
+* However, the retirement_titles table gives us duplicate entries since some employees shifted positions during their career at Pewlett Hackard.  Thus, we created a second table entitled “unique_titles” that displays the same information as the retirement_titles table, but excludes any redundant values    
+![unique_titles](https://user-images.githubusercontent.com/115128743/206359671-9c13880e-aca9-42d1-bcb2-2c35821caa01.png)
 
 
 * The above table is useful for looking at the individual employees and their specific descriptions, but we wanted a concise table that displayed how many retiring employees there are based on their most recent job title.  So, after grouping the unique_titles table on the “titles” column, we generated the “retiring_titles” table that gave us the number of retiring employees per job title, as shown below. ![retiring_titles](https://user-images.githubusercontent.com/115128743/206359705-3ba130f5-441a-4a8d-b6b7-9056fdb2b16c.png)
@@ -25,7 +26,7 @@ The second goal of this analysis was to use the provided .csv files to create a 
 
 ## Summary
 The above tables show valuable insights into the various collections of employee data we wanted to view.  However, we cannot suggest to Pewlett Hackard that they implement their mentorship program without first finding out the total number of people that will be retiring, and the total number of eligible mentors for the incoming new generation of Pewlett Hackard employees.  The following two screenshots show two small tables we created to generate the sum of the retiring employees, as well as the sum of the eligible mentors, respectively. 
-![sum_of_retiring_emp](https://user-images.githubusercontent.com/115128743/206359764-abc1106f-3dc9-4521-bf43-801a3071a5f7.png)
+![sum_of_retiring_emp](https://user-images.githubusercontent.com/115128743/206359764-abc1106f-3dc9-4521-bf43-801a3071a5f7.png)   
 ![sum_of_mentors](https://user-images.githubusercontent.com/115128743/206359756-4f1d9c50-0ff7-4c1f-aab6-0437cd6d192b.png)
 
 
