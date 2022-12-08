@@ -25,9 +25,9 @@ The second goal of this analysis was to use the provided .csv files to create a 
 
 
 ## Summary
-The above tables show valuable insights into the various collections of employee data we wanted to view.  However, we cannot suggest to Pewlett Hackard that they implement their mentorship program without first finding out the total number of people that will be retiring, and the total number of eligible mentors for the incoming new generation of Pewlett Hackard employees.  The following two screenshots show two small tables we created to generate the sum of the retiring employees, as well as the sum of the eligible mentors, respectively. 
-![sum_of_retiring_emp](https://user-images.githubusercontent.com/115128743/206359764-abc1106f-3dc9-4521-bf43-801a3071a5f7.png)   
-![sum_of_mentors](https://user-images.githubusercontent.com/115128743/206359756-4f1d9c50-0ff7-4c1f-aab6-0437cd6d192b.png)
+The above tables show valuable insights into the various collections of employee data we wanted to view.  However, we cannot suggest to Pewlett Hackard that they implement their mentorship program without first finding out the total number of people that will be retiring, and the total number of eligible mentors for the incoming new generation of Pewlett Hackard employees.  The following two screenshots show two small tables we created to generate the sum of the retiring employees, as well as the sum of the eligible mentors, respectively.    
+![sum_of_retiring_emp](https://user-images.githubusercontent.com/115128743/206359764-abc1106f-3dc9-4521-bf43-801a3071a5f7.png)      
+![sum_of_mentors](https://user-images.githubusercontent.com/115128743/206359756-4f1d9c50-0ff7-4c1f-aab6-0437cd6d192b.png)   
 
 
  As we can see, the number of retiring employees is extremely large in comparison to the number of eligible employees for the mentorship program, so, unfortunately, it would not be advisable for Pewlett Hackard to implement this new program without further adjustments to the mentorship program’s criteria.  Perhaps it would be beneficial for Pewlett Hackard to alter their criteria upon which soon-to-be retiring employees can join the mentorship program, thus increasing the total number of mentors that can help the incoming new employees.
