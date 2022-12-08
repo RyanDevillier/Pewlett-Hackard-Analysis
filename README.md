@@ -15,7 +15,8 @@ The first goal of our analysis was to create a table that held the job titles of
 ![unique_titles](https://user-images.githubusercontent.com/115128743/206359671-9c13880e-aca9-42d1-bcb2-2c35821caa01.png)
 
 
-* The above table is useful for looking at the individual employees and their specific descriptions, but we wanted a concise table that displayed how many retiring employees there are based on their most recent job title.  So, after grouping the unique_titles table on the “titles” column, we generated the “retiring_titles” table that gave us the number of retiring employees per job title, as shown below: ![retiring_titles](https://user-images.githubusercontent.com/115128743/206359705-3ba130f5-441a-4a8d-b6b7-9056fdb2b16c.png)
+* The above table is useful for looking at the individual employees and their specific descriptions, but we wanted a concise table that displayed how many retiring employees there are based on their most recent job title.  So, after grouping the unique_titles table on the “titles” column, we generated the “retiring_titles” table that gave us the number of retiring employees per job title, as shown below:    
+![retiring_titles](https://user-images.githubusercontent.com/115128743/206359705-3ba130f5-441a-4a8d-b6b7-9056fdb2b16c.png)   
 
 
 The second goal of this analysis was to use the provided .csv files to create a table that holds the number of current employees that are soon to retire and that are qualified enough to mentor the next generation of employees coming to work for Pewlett Hackard.  This table and how we constructed it is shown below:
